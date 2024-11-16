@@ -1,4 +1,3 @@
-
 **Password Generator**
 
 A simple Python-based password generator that combines user-provided words with random symbols to create secure passwords.  
@@ -25,7 +24,12 @@ A simple Python-based password generator that combines user-provided words with 
    cd password-generator
    ```
 
-2. Run the application:  
+2. Install the required Python libraries using `requirements.txt`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the application:  
    ```bash
    python app.py
    ```
@@ -76,4 +80,4 @@ This project is licensed under the MIT License.
 Inspired by the need for quick and secure password generation.
 ```
 
-Feel free to customize this `README.md` with your own name, repository URL, or additional details!
+With the added section for installing dependencies via `requirements.txt`, users will know exactly how to set up the environment.
